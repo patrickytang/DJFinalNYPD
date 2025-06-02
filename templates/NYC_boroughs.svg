@@ -1275,7 +1275,6 @@
 <rect x="25px" y="25px" width = "700px" height = "900px" opacity = "0.8" rx="15px" fill="#F5F5DC"/>
 <text x="50" y="70" font="14" fill="black" font-size="30">Analysis</text>
 
-<text x="150" y="375" font="14" fill="black">{{data["borough"]["M"][1]}}</text>
 
  
  <sodipodi:namedview  objecttolerance="10" pagecolor="#ffffff" borderopacity="1" inkscape:cy="247.2" inkscape:cx="250" guidetolerance="10" bordercolor="#666666" gridtolerance="10" inkscape:zoom="1.5230583" showgrid="false" id="namedview138" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1680" inkscape:window-height="1000" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="katman_1">
