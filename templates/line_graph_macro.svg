@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="500" height="500" id = "lgraph" >
+     <!-- <text x="250" y="250" text-anchor="middle">Insert your line graph here</text> -->
+    <!-- <form action="/line_graph" method="GET"> -->
+
+<text x = "250" y = "650" text-anchor="middle">Manhattan</text>
+<text x = "350" y = "650" text-anchor="middle">Brooklyn</text>
+<text x = "450" y = "650" text-anchor="middle">Queens</text>
+<text x = "550" y = "650" text-anchor="middle">Staten Island</text>
+<text x = "650" y = "650" text-anchor="middle">Bronx</text>
+<line x1 = "50" y1="390" x2="450" y2="390" stroke="black"/>
+<line x1 = "5" x2 = "5" y1="0" y2="700"  stroke="black"/>
+<line x1 = "0" x2 = "700" y1="695" y2="695"  stroke="black"/>
+
+</svg>
+
