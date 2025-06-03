@@ -38,8 +38,8 @@ for i in dictionary["borough"]:
 dict2["total"] = dict2["M"][0][1]+dict2["Q"][0][1]+dict2["B"][0][1]+dict2["K"][0][1]+dict2["S"][0][1]
 newlist = []
 for i in dict2["K"]:
-
-    newlist.append(i)
+    if i[0] != "total":
+        newlist.append(i)
 for i in dict2["M"]:
     true = True
     for a in range(len(newlist)):
@@ -78,7 +78,7 @@ for i in dict2["S"]:
 
 print(newlist)
 # print(newlist)
-dict2["T"] = newlist
+dict2["T"] = sorted(newlist,key=lambda x: x[1],reverse=True)
 dict2["indiv"] = dictionary
 f1.close()
 
