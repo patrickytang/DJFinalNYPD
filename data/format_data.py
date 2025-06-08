@@ -76,6 +76,27 @@ for i in dict2["S"]:
             newlist[a][1] += i[1]
             break
 
+dictionary["borough"] = {}
+for i in lines[1:]:
+    aspwer = i.split(",")
+# ARREST_DATE,OFNS_DESC,ARREST_BORO,ARREST_PRECINCT,AGE_GROUP,PERP_SEX,PERP_RACE
+
+
+    if aspwer[2] in dictionary["borough"]:
+        if aspwer[3] in dictionary["borough"][aspwer[2]]:
+            if aspwer[1] in dictionary["borough"][aspwer[2]][aspwer[3]]:
+                dictionary["borough"][aspwer[2]][aspwer[3]][aspwer[1]]+= 1
+            else:
+                dictionary["borough"][aspwer[2]][aspwer[3]][aspwer[1]] = 1 
+        else:
+            dictionary["borough"][aspwer[2]][aspwer[3]] = {aspwer[1]: 1}
+    else:
+        dictionary["borough"][aspwer[2]] = {aspwer[3]:{aspwer[1]: 1}}
+
+
+
+
+
 print(newlist)
 # print(newlist)
 dict2["T"] = sorted(newlist,key=lambda x: x[1],reverse=True)

@@ -1285,7 +1285,7 @@
 <line x1="280" x2="750" y1="850" y2="850" stroke="black"/>
 
 {%for i in data["T"]%}
-<text x="275" y="{{125+(loop.index0*15)}}"  fill="black"  text-anchor="end" font-size="15px">{{i[0]}}</text>
+<text x="277" y="{{125+(loop.index0*15)}}"  fill="black"  text-anchor="end" font-size="15px">{{i[0]}}</text>
 <line x1="300" x2="{{300+i[1]/20}}" y1="{{120+(loop.index0*15)}}" y2="{{120+(loop.index0*15)}}" stroke="black" stroke-width="10"/>
 
 {% endfor %}
@@ -1294,8 +1294,12 @@
 <line x1="{{300+loop.index0*50}}" x2="{{300+loop.index0*50}}" y1="850" y2="845" stroke="black"/>
 <text x="{{300+loop.index0*50}}" y="870"  fill="black"  text-anchor="middle" font-size="15px">{{loop.index0*1000}}</text>
 {% endfor %}
-<text x="550" y="925" fill="black"  text-anchor="middle" font-size="25px">Cases</text>
+<text x="550" y="105" fill="black"  text-anchor="middle" font-size="25px">Cases</text>
 <text x="135" y="105" fill="black"  text-anchor="middle" font-size="25px">Description of Crime</text>
+<text x="50" y="900" fill="black"  text-anchor="start" font-size="15px">There have been a total of {{data["total"]}} arrests made by the NYPD. The borough with the most arrests is Brooklyn,</text>
+<text x="50" y="920" fill="black"  text-anchor="start" font-size="15px">with {{data["K"][0][1]}} made in 2025 from January 1st to March 31st. The most common arrest made is for ASSAULT 3</text>
+<text x="50" y="940" fill="black"  text-anchor="start" font-size="15px">& RELATED OFFENSES, with {{data["T"][0][1]}} arrests.</text>
+
 <rect x="1210" y="1750" width="120" height="120"  stroke = "black" fill="hsl(240 100% 100%)"/>
   <text x="1270" y="1910" fill="black" text-anchor="middle" font-size="30px">0</text>
 <rect x="1340" y="1750" width="120" height="120"  stroke = "black" fill="hsl(240 100% 80%)"/>
