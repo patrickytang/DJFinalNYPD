@@ -1279,7 +1279,7 @@
 		c2.309,2.426-6.355,11.125-8.297,13.734l2.969,17.914l-4.418,4.188l-5.539-14.781l-5.637,5.055l2.148,6.746l-4.305,3.605
 		l-4.082-9.832l-10.203-5.262l4.379-4.367l6.711,3.293l4.961-5.238l-13.621-6.039L1657.525,1242.688z"/>
 </g>
-<rect x="-5px" y="-10px" width = "800px" height = "1000px" opacity = "0.8" rx="15px" fill="#F5F5DC"/>
+<rect x="-5px" y="-10px" width = "800px" height = "1030px" opacity = "0.8" rx="15px" fill="#F5F5DC"/>
 <text x="15" y="70" font="14" fill="black" font-size="50">Analysis</text>
 <line x1="280" x2="280" y1="115" y2="850" stroke="black"/>
 <line x1="280" x2="750" y1="850" y2="850" stroke="black"/>
@@ -1298,7 +1298,16 @@
 <text x="135" y="105" fill="black"  text-anchor="middle" font-size="25px">Offense Description</text>
 <text x="50" y="900" fill="black"  text-anchor="start" font-size="15px">There have been a total of {{data["total"]}} arrests made by the NYPD. The borough with the most arrests is Brooklyn,</text>
 <text x="50" y="920" fill="black"  text-anchor="start" font-size="15px">with {{data["K"][0][1]}} made in 2025 from January 1st to March 31st. The most common arrest made is for ASSAULT 3</text>
-<text x="50" y="940" fill="black"  text-anchor="start" font-size="15px">& RELATED OFFENSES, with {{data["T"][0][1]}} arrests.</text>
+<text x="50" y="940" fill="black"  text-anchor="start" font-size="15px">& RELATED OFFENSES, with {{data["T"][0][1]}} arrests. I found it quite shocking how many less arrests were made in Staten</text>
+<text x="50" y="960" fill="black"  text-anchor="start" font-size="15px">Island, how many more were made in Brooklyn, and just how many arrests were made in general. It was quite </text>
+<text x="50" y="980" fill="black"  text-anchor="start" font-size="15px">and a little sobering to see how many arrests are made here in New York City. Especially given that these  </text>
+<text x="50" y="1000" fill="black"  text-anchor="start" font-size="15px"> numbers are only from a 3 month span, its awful to consider how many are made per year. </text>
+
+
+
+
+
+
 
 <rect x="1210" y="1750" width="120" height="120"  stroke = "black" fill="hsl(240 100% 100%)"/>
   <text x="1270" y="1910" fill="black" text-anchor="middle" font-size="30px">0</text>

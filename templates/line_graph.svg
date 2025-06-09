@@ -28,7 +28,7 @@
 {%if (((data[borough][0][1]*100/data["total"])-20)*100/20) > 0%}
 <text  x="705" y="154" font-size="15" >This means that it has {{(((data[borough][0][1]*100/data["total"])-20)*100/20)|round(2)}}% more arrests </text>
 {%else%}
-<text  x="705" y="154" font-size="15" >This means that it has {{(((data[borough][0][1]*100/data["total"])-20)*100/20)|round(2)}}% less arrests </text>
+<text  x="705" y="154" font-size="15" >This means that it has {{(((data[borough][0][1]*100/data["total"])-20)*(-100)/20)|round(2)}}% less arrests </text>
 
 {%endif%}
 <text  x="705" y="172" font-size="15" >compared to the average borough.</text>
