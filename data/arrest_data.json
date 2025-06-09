@@ -212,195 +212,195 @@
         ],
         [
             "ASSAULT 3 & RELATED OFFENSES",
-            2563
+            9211
         ],
         [
             "PETIT LARCENY",
-            1718
+            7468
         ],
         [
             "DANGEROUS DRUGS",
-            1710
+            6167
         ],
         [
             "MISCELLANEOUS PENAL LAW",
-            1592
+            4740
         ],
         [
             "OTHER OFFENSES RELATED TO THEFT",
-            1465
+            4661
         ],
         [
             "FELONY ASSAULT",
-            1453
+            5294
         ],
         [
             "VEHICLE AND TRAFFIC LAWS",
-            1408
+            4586
         ],
         [
             "CRIMINAL MISCHIEF & RELATED OF",
-            941
+            3044
         ],
         [
             "DANGEROUS WEAPONS",
-            908
+            2649
         ],
         [
             "OTHER STATE LAWS",
-            809
+            2043
         ],
         [
             "ROBBERY",
-            678
+            2619
         ],
         [
             "OFFENSES AGAINST PUBLIC ADMINI",
-            627
+            2360
         ],
         [
             "GRAND LARCENY",
-            541
+            2557
         ],
         [
             "OFF. AGNST PUB ORD SENSBLTY &",
-            431
+            1370
         ],
         [
             "BURGLARY",
-            418
+            1848
         ],
         [
             "SEX CRIMES",
-            333
+            1456
         ],
         [
             "CRIMINAL TRESPASS",
-            301
+            906
         ],
         [
             "FORGERY",
-            300
+            1194
         ],
         [
             "POSSESSION OF STOLEN PROPERTY",
-            252
+            817
         ],
         [
             "INTOXICATED & IMPAIRED DRIVING",
-            229
+            735
         ],
         [
             "OFFENSES INVOLVING FRAUD",
-            226
+            1011
         ],
         [
             "OTHER TRAFFIC INFRACTION",
-            196
+            714
         ],
         [
             "GRAND LARCENY OF MOTOR VEHICLE",
-            124
+            358
         ],
         [
             "GAMBLING",
-            114
+            163
         ],
         [
             "MURDER & NON-NEGL. MANSLAUGHTE",
-            111
+            403
         ],
         [
             "FRAUDS",
-            85
+            375
         ],
         [
             "BURGLAR'S TOOLS",
-            71
+            222
         ],
         [
             "OFFENSES AGAINST THE PERSON",
-            71
+            407
         ],
         [
             "RAPE",
-            61
+            232
         ],
         [
             "UNAUTHORIZED USE OF A VEHICLE",
-            50
+            130
         ],
         [
             "FOR OTHER AUTHORITIES",
-            46
+            361
         ],
         [
             "OTHER STATE LAWS (NON PENAL LAW)",
-            35
+            122
         ],
         [
             "MOVING INFRACTIONS",
-            30
+            109
         ],
         [
             "INTOXICATED/IMPAIRED DRIVING",
-            24
+            81
         ],
         [
             "DISORDERLY CONDUCT",
-            22
+            31
         ],
         [
             "CANNABIS RELATED OFFENSES",
-            20
+            105
         ],
         [
             "ADMINISTRATIVE CODE",
-            18
+            51
         ],
         [
             "PROSTITUTION & RELATED OFFENSES",
-            16
+            202
         ],
         [
             "ALCOHOLIC BEVERAGE CONTROL LAW",
-            14
+            73
         ],
         [
             "ARSON",
-            14
+            34
         ],
         [
             "THEFT-FRAUD",
-            8
+            113
         ],
         [
             "OFFENSES AGAINST PUBLIC SAFETY",
-            7
+            33
         ],
         [
             "HARRASSMENT 2",
-            6
+            17
         ],
         [
             "KIDNAPPING & RELATED OFFENSES",
-            5
+            24
         ],
         [
             "OFFENSES RELATED TO CHILDREN",
-            4
+            35
         ],
         [
             "CHILD ABANDONMENT/NON SUPPORT 1",
-            4
+            31
         ],
         [
             "JOSTLING",
-            2
+            13
         ],
         [
             "ANTICIPATORY OFFENSES",
-            2
+            44
         ],
         [
             "ESCAPE 3",
@@ -1007,204 +1007,6 @@
         "S": "Staten Island",
         "B": "The Bronx"
     },
-    "T": [
-        [
-            "ASSAULT 3 & RELATED OFFENSES",
-            9211
-        ],
-        [
-            "PETIT LARCENY",
-            7468
-        ],
-        [
-            "DANGEROUS DRUGS",
-            6167
-        ],
-        [
-            "FELONY ASSAULT",
-            5294
-        ],
-        [
-            "MISCELLANEOUS PENAL LAW",
-            4740
-        ],
-        [
-            "OTHER OFFENSES RELATED TO THEFT",
-            4661
-        ],
-        [
-            "VEHICLE AND TRAFFIC LAWS",
-            4586
-        ],
-        [
-            "CRIMINAL MISCHIEF & RELATED OF",
-            3044
-        ],
-        [
-            "DANGEROUS WEAPONS",
-            2649
-        ],
-        [
-            "ROBBERY",
-            2619
-        ],
-        [
-            "GRAND LARCENY",
-            2557
-        ],
-        [
-            "OFFENSES AGAINST PUBLIC ADMINI",
-            2360
-        ],
-        [
-            "OTHER STATE LAWS",
-            2043
-        ],
-        [
-            "BURGLARY",
-            1848
-        ],
-        [
-            "SEX CRIMES",
-            1456
-        ],
-        [
-            "OFF. AGNST PUB ORD SENSBLTY &",
-            1370
-        ],
-        [
-            "FORGERY",
-            1194
-        ],
-        [
-            "OFFENSES INVOLVING FRAUD",
-            1011
-        ],
-        [
-            "CRIMINAL TRESPASS",
-            906
-        ],
-        [
-            "POSSESSION OF STOLEN PROPERTY",
-            817
-        ],
-        [
-            "INTOXICATED & IMPAIRED DRIVING",
-            735
-        ],
-        [
-            "OTHER TRAFFIC INFRACTION",
-            714
-        ],
-        [
-            "OFFENSES AGAINST THE PERSON",
-            407
-        ],
-        [
-            "MURDER & NON-NEGL. MANSLAUGHTE",
-            403
-        ],
-        [
-            "FRAUDS",
-            375
-        ],
-        [
-            "FOR OTHER AUTHORITIES",
-            361
-        ],
-        [
-            "GRAND LARCENY OF MOTOR VEHICLE",
-            358
-        ],
-        [
-            "RAPE",
-            232
-        ],
-        [
-            "BURGLAR'S TOOLS",
-            222
-        ],
-        [
-            "PROSTITUTION & RELATED OFFENSES",
-            202
-        ],
-        [
-            "GAMBLING",
-            163
-        ],
-        [
-            "UNAUTHORIZED USE OF A VEHICLE",
-            130
-        ],
-        [
-            "OTHER STATE LAWS (NON PENAL LAW)",
-            122
-        ],
-        [
-            "THEFT-FRAUD",
-            113
-        ],
-        [
-            "MOVING INFRACTIONS",
-            109
-        ],
-        [
-            "CANNABIS RELATED OFFENSES",
-            105
-        ],
-        [
-            "INTOXICATED/IMPAIRED DRIVING",
-            81
-        ],
-        [
-            "ALCOHOLIC BEVERAGE CONTROL LAW",
-            73
-        ],
-        [
-            "ADMINISTRATIVE CODE",
-            51
-        ],
-        [
-            "ANTICIPATORY OFFENSES",
-            44
-        ],
-        [
-            "OFFENSES RELATED TO CHILDREN",
-            35
-        ],
-        [
-            "ARSON",
-            34
-        ],
-        [
-            "OFFENSES AGAINST PUBLIC SAFETY",
-            33
-        ],
-        [
-            "DISORDERLY CONDUCT",
-            31
-        ],
-        [
-            "CHILD ABANDONMENT/NON SUPPORT 1",
-            31
-        ],
-        [
-            "KIDNAPPING & RELATED OFFENSES",
-            24
-        ],
-        [
-            "HARRASSMENT 2",
-            17
-        ],
-        [
-            "JOSTLING",
-            13
-        ],
-        [
-            "ESCAPE 3",
-            1
-        ]
-    ],
     "indiv": {
         "borough": {
             "M": {

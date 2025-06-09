@@ -21,7 +21,9 @@ def year():
 
 @app.route('/borough')
 def yurr():
+    print(isinstance(request.args["borough"],str))
     f = open("data/data.json", "r")
+
     dater = json.load(f)
     f.close()
     return render_template('micro.html',borough = request.args["borough"],data=dater)

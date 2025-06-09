@@ -8,39 +8,46 @@
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="\">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="\">NYC Map</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="\about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Borough Analysis
+              </a>
+              <ul class="dropdown-menu" name="borough">
+    <form action="/borough" method="GET">
+      <label for="borough">Choose a borough:</label><br>
+      <select name="borough" id="borough_select">
+        <option value="K" id="Brooklyn">Brooklyn</option>
+        <option value="M" id="Manhattan">Manhattan</option>
+        <option value="B" id="The_Bronx">The Bronx</option>
+        <option value="Q" id="Queens">Queens</option>
+        <option value="S" id="Staten_Island">Staten Island</option>
+      </select>
+      <input type="submit" value="Submit">
+    <form>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   <h1>NYPD Arrest Data - Patrick Tang</h1>
   <p>This investigation is meant to examine crimes statistics in NYC within recent years. This is intended to highlight the inequity present in policing. </p>
   <p>  - Precinct: a designated geographical area and the main police station within that area </p>
 
 
-  <footer>
-    All data from <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data"> NYC Open Data</a>.
-  </footer>
-  
+      <center>
+    <footer text-align="center">This project investigates NYPD arrest statistics and how disproportionate amounts of arrests are made in different boroughs and on different people. All data provided by <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data">NYC OpenData.</a></footer>
+    </center>
 </body>
 </html>

@@ -1,0 +1,38 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="50%" height="50%" id = "lgraph" >
+     <!-- <text x="250" y="250" text-anchor="middle">Insert your line graph here</text> -->
+    <!-- <form action="/line_graph" method="GET"> -->
+
+<text x="15" y="30" font-size="25">{{data["workaround"][borough]}} Statistics</text>
+
+<line x1="103" y1="600" x2 = "{{95+(data[borough]|length)*12}}" y2="600" stroke="black"/>
+<line x1="103" y1="600" x2 = "103" y2="90" stroke="black"/>
+<line x1="999" y1="600" x2 = "999" y2="90" stroke="black"/>
+<line y1="999" x1="600" y2 = "999" x2="90" stroke="black"/>
+ {% for i in data[borough] %}
+ {%if loop.index0 != 0%}
+ <line x1="{{loop.index0*12+100}}" x2="{{loop.index0*12+100}}" y1="598" y2="{{598-(i[1]/(data[borough][1][1]/500))}}" stroke="rgb({{255-loop.index0*7}},0,{{loop.index0*7}})" stroke-width="10"/>
+
+ <text x="{{loop.index0*12+100}}" y="610" font-size="11" writing-mode="tb-rl" >{{i[0]}}</text>
+{%endif%}
+{%endfor%}
+{%for i in range(6)%}
+<text text-anchor="end" x="95" y="{{605-loop.index0*100}}">{{((loop.index0*(data[borough][1][1]/5))|round(0)|string).rstrip('0').rstrip('.')}}</text>
+{%endfor%}
+<text  x="50" y="400" font-size="30" writing-mode="sideways-lr">Arrests</text>
+<text  x="250" y="850" font-size="30" >Offense Description</text>
+<line x1="700" y1="600" x2 = "700" y2="90" stroke="black"/>
+<text  x="705" y="100" font-size="15" >{{data["workaround"][borough]}} has had {{data[borough][0][1]}} arrests made,</text>
+<text  x="705" y="118" font-size="15" >around {{(data[borough][0][1]*100/data["total"])|round(2)}}% of the total arrests in NYC</text>
+<text  x="705" y="136" font-size="15" >from January 1st 2025 to March 31st 2025.</text>
+{%if (((data[borough][0][1]*100/data["total"])-20)*100/20) > 0%}
+<text  x="705" y="154" font-size="15" >This means that it has {{(((data[borough][0][1]*100/data["total"])-20)*100/20)|round(2)}}% more arrests </text>
+{%else%}
+<text  x="705" y="154" font-size="15" >This means that it has {{(((data[borough][0][1]*100/data["total"])-20)*100/20)|round(2)}}% less arrests </text>
+
+{%endif%}
+<text  x="705" y="172" font-size="15" >compared to the average borough.</text>
+
+
+</svg>
+
